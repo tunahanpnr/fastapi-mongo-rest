@@ -21,10 +21,7 @@ async def test_get_multi_user(test_client, get_db):
         mock_user = create_mock_signup_user()
         await crud.user.create(get_db['users'], mock_user)
 
-    try:
-        result = await crud.user.get_multi(get_db['users'])
-    except Exception as e:
-        pass
+    result = await crud.user.get_multi(get_db['users'])
     assert len(result) > 0
 
 
