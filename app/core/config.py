@@ -10,7 +10,7 @@ class Config(BaseSettings):
     MONGO_URI: str = 'localhost'
     MONGO_PORT: int = 27017
     MONGO_DB_NAME: str = "fastapidb"
-    MONGO_DB_NAME_MOCK: str = "fastapidb"
+    MONGO_DB_NAME_MOCK: str = "fastapi-db-test"
 
     class Config:
         case_sensitive = True
