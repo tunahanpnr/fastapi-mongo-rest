@@ -7,6 +7,7 @@ class User(Base):
     name: str
     surname: str
     username: str
+    password: str
     email: EmailStr
     is_active: bool = False
     is_admin: bool = False

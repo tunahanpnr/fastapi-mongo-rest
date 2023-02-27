@@ -4,5 +4,7 @@ motor~=3.1.1
 pymongo~=4.3.3
 pytest~=7.2.1
 mongomock~=4.1.2
-pytest-asyncio
-httpx
+passlib~=1.7.4
+python-jose~=3.3.0
+jose~=1.0.0
+python-multipart~=0.0.6
