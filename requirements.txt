@@ -1,0 +1,8 @@
+fastapi~=0.92.0
+pydantic~=1.10.5
+motor~=3.1.1
+pymongo~=4.3.3
+pytest~=7.2.1
+mongomock~=4.1.2
+pytest-asyncio
+httpx
